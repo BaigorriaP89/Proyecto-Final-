@@ -1,0 +1,18 @@
+
+.contenedor{
+    position: relative;
+}
+.login{
+    margin: 200px auto;
+    
+    border: 5px solid black;
+    width: 350px;
+    height: 350px;
+    align-content: center;
+    text-align: center;
+}
+.uss_pass{
+    align-items: center;
+    padding: 50px;
+}
+

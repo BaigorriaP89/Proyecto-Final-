@@ -60,6 +60,20 @@ ul{
     text-decoration: none;
     margin: 10px; 
 }
+.Perfil{
+    margin: auto;
+    padding: 100px 50% 0;
+}
+.foto_perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    
+}
+.Laboral{
+    display: flex;
+    margin: auto;
+}
 
 .Laboral{
     
@@ -67,39 +81,72 @@ ul{
 
 }
 .IUDU{
+    width: 500px;
+    height: 150px;
     border: 1px outset rgb(190, 187, 187) ;
     margin: 0 10px 10px;
     border-radius: 10px;
-    box-shadow: 5px -5px 10px 0 black;
-    
+    box-shadow: 3px -1px 0.2px 0 rgb(134, 130, 130);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 .IUDU img{
-    width: 13%;
+    width: 80px;
 margin: 10px 35px;
 }
+
+
 .Cordial{
+    width: 500px;
+    height: 150px;
     margin-top: 50px;
     border: 1px outset rgb(190, 187, 187) ;
     margin: 0 10px;
     border-radius: 10px; 
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 5px -5px 10px 0 black;
+    box-shadow: 3px -1px 0.2px 0 rgb(134, 130, 130);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .Cordial img{
-    width: 15%;
+    width: 100px;
     margin: 10px 35px;
 }
-.estudios ul{
-    margin-top: 50px;
+.estudios {
+    width: 500px;
+    height: 150px;
     border: 1px outset rgb(190, 187, 187) ;
-    margin: 0 10px;
-    border-radius: 10px; 
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 5px -5px 10px 0 black;
-}
-.estudios{
-    margin: 0 10px;
+    margin: 0 10px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 3px -1px 0.2px 0 rgb(134, 130, 130);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+    
+}
+
+.edit :hover{
+    transform: translateY(-3px) scale(1.5) ;
+}
+.editar{
+   
+    margin: 20px;
+    display: inline-block; 
+}
+.editar ul li {
+    text-decoration: none;
+}
+.editar :hover{
+    transform: translateY(-1px) scale(1.1) ; 
+    box-shadow: 3px 1px 0.2px 0 rgb(134, 130, 130);
+   
+}
+.editar a {
+    text-decoration: none;
+    color: black;
+   
     
 }
